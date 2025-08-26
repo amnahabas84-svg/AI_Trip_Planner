@@ -12,4 +12,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "AI_Travel_Planner",
+    "AI_Planner",
 ]
