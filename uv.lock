@@ -4,9 +4,15 @@ requires-python = ">=3.13"
 
 [manifest]
 members = [
+    "ai-planner",
     "ai-travel-planner",
     "ai-trip-planner",
 ]
+
+[[package]]
+name = "ai-planner"
+version = "0.1.0"
+source = { virtual = "AI_Planner" }
 
 [[package]]
 name = "ai-travel-planner"
